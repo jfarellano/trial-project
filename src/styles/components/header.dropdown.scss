@@ -1,0 +1,30 @@
+.menu-dropdown {
+  width: 100%;
+  .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    &:hover {
+      cursor: pointer;
+    }
+    .title {
+      font-size: 1.2rem;
+      margin: 10px;
+      padding: 10px 0px;
+    }
+    svg {
+      width: 17px;
+      fill: #0aa6bf;
+      transform: rotate(90deg);
+      margin-right: 8px;
+    }
+  }
+  .dropdown-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 16px;
+  }
+}
