@@ -1,0 +1,25 @@
+.table-row {
+  width: 100%;
+  position: relative;
+  
+  svg {
+    width: 20px;
+    position: absolute;
+    top: 40px;
+    right: 8px;
+  }
+
+  .columns {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: white;
+  }
+
+  .body {
+    padding: 16px;
+    background-color: #F7F7F7;
+  }
+}
