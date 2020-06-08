@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import '../styles/components/header.scss'
+import { Link } from "react-router-dom";
 import Menu from './header.menu'
 import Item from './header.item'
 import Dropdown from './header.dropdown'
@@ -9,13 +10,13 @@ function Header() {
 
   return (
       <nav className='header'>
-          <a className='logo nav-block'></a>
+          <Link to='/' className='logo nav-block'/>
           <Menu className='nav-block' name={name}>
             <Item>Account</Item>
             <Item>Settings</Item>
             <Dropdown title='Tours'>
               <Item>Upcoming</Item>
-              <Item>Pending</Item>
+              <Item to='/pending'>Pending</Item>
               <Item>Past</Item>
             </Dropdown>
             <Item>Host tours</Item>

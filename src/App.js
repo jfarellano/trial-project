@@ -13,7 +13,6 @@ export default function App() {
   return (
     <Router>
       <div>
-        <Header />
         <div className='main-container'>
           <Switch >
             <Route path="/">
@@ -21,6 +20,7 @@ export default function App() {
             </Route>
           </Switch>
         </div>
+        <Header />
       </div>
     </Router>
   );
