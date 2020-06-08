@@ -7,6 +7,7 @@ import {
 
 import Index from './pages/index'
 import Pending from './pages/pending'
+import Past from './pages/past'
 import Header from './components/header'
 import './styles/main.scss'
 
@@ -18,6 +19,9 @@ export default function App() {
           <Switch >
             <Route path="/pending">
               <Pending />
+            </Route>
+            <Route path="/past">
+              <Past />
             </Route>
             <Route path="/">
               <Index />
