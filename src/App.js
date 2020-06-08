@@ -8,6 +8,7 @@ import {
 import Index from './pages/index'
 import Pending from './pages/pending'
 import Past from './pages/past'
+import Upcoming from './pages/upcoming'
 import Header from './components/header'
 import './styles/main.scss'
 
@@ -22,6 +23,9 @@ export default function App() {
             </Route>
             <Route path="/past">
               <Past />
+            </Route>
+            <Route path="/upcoming">
+              <Upcoming />
             </Route>
             <Route path="/">
               <Index />
