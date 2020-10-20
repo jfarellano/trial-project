@@ -6,9 +6,7 @@ import {
 } from "react-router-dom";
 
 import Index from './pages/index'
-import Pending from './pages/pending'
-import Past from './pages/past'
-import Upcoming from './pages/upcoming'
+import Tours from './pages/tours'
 import Header from './components/header'
 import './styles/main.scss'
 
@@ -18,14 +16,8 @@ export default function App() {
       <div>
         <div className='main-container'>
           <Switch >
-            <Route path="/pending">
-              <Pending />
-            </Route>
-            <Route path="/past">
-              <Past />
-            </Route>
-            <Route path="/upcoming">
-              <Upcoming />
+            <Route path="/tours">
+              <Tours/>
             </Route>
             <Route path="/">
               <Index />

@@ -15,9 +15,7 @@ function Header() {
             <Item>Account</Item>
             <Item>Settings</Item>
             <Dropdown title='Tours'>
-              <Item to='/upcoming'>Upcoming</Item>
-              <Item to='/pending'>Pending</Item>
-              <Item to='/past'>Past</Item>
+              <Item to='/tours'>Tours</Item>
             </Dropdown>
             <Item>Host tours</Item>
           </Menu>
