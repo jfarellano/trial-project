@@ -34,9 +34,9 @@ function Tours() {
             'Vermont',
             getStatus('Yes')
           ]}
+          // https://wireframe.cc/17rcBa
           body={(
             <div>
-              // https://wireframe.cc/17rcBa
               <h1>This is a body</h1> 
             </div>
           )} />
